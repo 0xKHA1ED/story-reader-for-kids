@@ -1,0 +1,185 @@
+{
+  "title": "El Sapo Simón y el Monstruo del Eco",
+  "audioSrc": "audio/story.mp3",
+  "content": [
+    {
+      "type": "paragraph",
+      "translation": "One day, Simon the toad is sitting near a large canyon. He is a happy toad who loves to sing.",
+      "text": "Un día, el sapo Simón está sentado cerca de un gran cañón. Es un sapo feliz que le gusta mucho cantar."
+    },
+    {
+      "type": "image",
+      "src": "images/1.png",
+      "alt": "Sapo Simón cantando cerca de un cañón"
+    },
+    {
+      "type": "paragraph",
+      "translation": "—Croak! —sings Simon in his loud voice.<br>And from the other side of the canyon, a voice answers:<br><em class='text-gray-500'>—Croak!</em>",
+      "text": "—¡Croac! —canta Simón con su voz fuerte.<br>Y desde el otro lado del cañón, una voz responde:<br><em class=\"text-gray-500\">—¡Croac!</em>"
+    },
+    {
+      "type": "paragraph",
+      "translation": "Simon is surprised. He looks to the left. He looks to the right. He sees no one.",
+      "text": "Simón se sorprende. Mira a la izquierda. Mira a la derecha. No ve a nadie."
+    },
+    {
+      "type": "paragraph",
+      "translation": "—Hello! —shouts Simon.<br>And the mysterious voice answers:<br><em class='text-gray-500'>—Hello!</em>",
+      "text": "—¡Hola! —grita Simón.<br>Y la voz misteriosa responde:<br><em class=\"text-gray-500\">—¡Hola!</em>"
+    },
+    {
+      "type": "paragraph",
+      "translation": "Simon frowns. He thinks: 'There is a monster in the canyon. And it's making fun of me!'. Simon feels very annoyed and decides to find the monster to teach it a lesson.",
+      "text": "Simón frunce el ceño. Piensa: \"Hay un monstruo en el cañón. ¡Y se burla de mí!\". Simón se siente muy molesto y decide encontrar al monstruo para darle una lección."
+    },
+    {
+      "type": "paragraph",
+      "translation": "Simon begins to walk along the edge of the canyon. First, he meets Lola the lizard.",
+      "text": "Simón empieza a caminar por el borde del cañón. Primero, se encuentra con la lagartija Lola."
+    },
+    {
+      "type": "image",
+      "src": "images/2.png",
+      "alt": "Simón el sapo hablando con Lola la lagartija"
+    },
+    {
+      "type": "paragraph",
+      "translation": "—Hello, Simon! Why do you have such a serious face? —asks Lola.",
+      "text": "—¡Hola, Simón! ¿Por qué tienes esa cara tan seria? —pregunta Lola."
+    },
+    {
+      "type": "paragraph",
+      "translation": "—I'm going to find the canyon monster! —says Simon—. It makes fun of everything I say!",
+      "text": "—¡Voy a encontrar al monstruo del cañón! —dice Simón—. ¡Se burla de todo lo que digo!"
+    },
+    {
+      "type": "paragraph",
+      "translation": "—A monster? How do you know? —asks Lola.",
+      "text": "—¿Un monstruo? ¿Cómo lo sabes? —pregunta Lola."
+    },
+    {
+      "type": "paragraph",
+      "translation": "—I hear it! —explains Simon—. When I say 'hello', it says 'hello'! It's imitating me!",
+      "text": "—¡Lo escucho! —explica Simón—. ¡Cuando yo digo \"hola\", él dice \"hola\"! ¡Me está imitando!"
+    },
+    {
+      "type": "paragraph",
+      "translation": "—Oh my goodness! How terrible! It must be true! Let's go look for it together! —says Lola.",
+      "text": "—¡Dios mío! ¡Qué terrible! ¡Debe ser cierto! ¡Vamos a buscarlo juntos! —dice Lola."
+    },
+    {
+      "type": "paragraph",
+      "translation": "The two friends walk a little further and meet Carlos the rabbit, who is eating a carrot.",
+      "text": "Los dos amigos caminan un poco más y se encuentran con el conejo Carlos, que está comiendo una zanahoria."
+    },
+    {
+      "type": "image",
+      "src": "images/3.png",
+      "alt": "El grupo hablando con Carlos el conejo"
+    },
+    {
+      "type": "paragraph",
+      "translation": "—Hello! Why the hurry? —asks Carlos.",
+      "text": "—¡Hola! ¿Por qué tanta prisa? —pregunta Carlos."
+    },
+    {
+      "type": "paragraph",
+      "translation": "—We're going to teach the canyon monster a lesson! —say Simon and Lola.",
+      "text": "—¡Vamos a darle una lección al monstruo del cañón! —dicen Simón y Lola."
+    },
+    {
+      "type": "paragraph",
+      "translation": "—Are you sure? A monster that mocks? —asks Carlos.",
+      "text": "—¿Están seguros? ¿Un monstruo que se burla? —pregunta Carlos."
+    },
+    {
+      "type": "paragraph",
+      "translation": "—Yes! —says Simon—. It repeats everything I say to annoy me!",
+      "text": "—¡Sí! —dice Simón—. ¡Repite todo lo que yo digo para molestarme!"
+    },
+    {
+      "type": "paragraph",
+      "translation": "—How evil! That's not right! I'm going with you! —says Carlos.",
+      "text": "—¡Qué malvado! ¡Eso no está bien! ¡Voy con ustedes! —dice Carlos."
+    },
+    {
+      "type": "paragraph",
+      "translation": "The three animals, very determined, continue on their way. Finally, they see Teresa the turtle, who is resting peacefully in the sun.",
+      "text": "Los tres animales, muy decididos, continúan su camino. Finalmente, ven a la tortuga Teresa, que descansa tranquilamente bajo el sol."
+    },
+    {
+      "type": "image",
+      "src": "images/4.png",
+      "alt": "El grupo encuentra a Teresa la tortuga sabia"
+    },
+    {
+      "type": "paragraph",
+      "translation": "—Where are you going with so much energy? —asks Teresa in a slow voice.",
+      "text": "—¿A dónde van con tanta energía? —pregunta Teresa con voz lenta."
+    },
+    {
+      "type": "paragraph",
+      "translation": "—We're going to confront the canyon monster! —they all say.",
+      "text": "—¡Vamos a enfrentarnos al monstruo del cañón! —dicen todos."
+    },
+    {
+      "type": "paragraph",
+      "translation": "Teresa looks at them with curiosity.",
+      "text": "Teresa los mira con curiosidad."
+    },
+    {
+      "type": "paragraph",
+      "translation": "—What monster? —she asks.",
+      "text": "—¿Qué monstruo? —pregunta."
+    },
+    {
+      "type": "paragraph",
+      "translation": "—One that hides and repeats my words! —explains Simon, very angry—. Listen! Silly monster!",
+      "text": "—¡Uno que se esconde y repite mis palabras! —explica Simón, muy enfadado—. ¡Escucha! ¡Monstruo tonto!"
+    },
+    {
+      "type": "paragraph",
+      "translation": "And from the other side of the canyon, the voice answers:<br><em class='text-gray-500'>—Silly monster!</em>",
+      "text": "Y desde el otro lado del cañón, la voz responde:<br><em class=\"text-gray-500\">—¡Monstruo tonto!</em>"
+    },
+    {
+      "type": "paragraph",
+      "translation": "Simon looks at Teresa, triumphant. —See?",
+      "text": "Simón mira a Teresa, triunfante. —¿Ves?"
+    },
+    {
+      "type": "paragraph",
+      "translation": "Teresa the turtle smiles calmly. She doesn't get up.",
+      "text": "La tortuga Teresa sonríe con calma. No se levanta."
+    },
+    {
+      "type": "paragraph",
+      "translation": "—My dear Simon —says Teresa softly—. That's not a monster. It's just your own voice. It's called an 'echo'. The canyon is very large, and the sound travels and comes back.",
+      "text": "—Mi querido Simón —dice Teresa suavemente—. Eso no es un monstruo. Es solo tu propia voz. Se llama \"eco\". El cañón es muy grande y el sonido viaja y regresa."
+    },
+    {
+      "type": "paragraph",
+      "translation": "Simon, Lola, and Carlos fall silent. Simon shouts one last time:",
+      "text": "Simón, Lola y Carlos se quedan en silencio. Simón grita una última vez:"
+    },
+    {
+      "type": "paragraph",
+      "translation": "—Am I a smart toad?<br>And the canyon answers:<br><em class='text-gray-500'>—Am I a smart toad?</em>",
+      "text": "—¿Soy un sapo listo?<br>Y el cañón responde:<br><em class=\"text-gray-500\">—¿Soy un sapo listo?</em>"
+    },
+    {
+      "type": "image",
+      "src": "images/5.png",
+      "alt": "Simón feliz al descubrir el eco"
+    },
+    {
+      "type": "paragraph",
+      "translation": "Simon laughs. There is no monster, only his own voice playing with him.",
+      "text": "Simón se ríe. No hay ningún monstruo, solo su propia voz jugando con él."
+    }
+  ],
+  "moral": {
+    "translation": "Moral: It's better to understand the world before getting angry with it.",
+    "text": "Moraleja: Es mejor entender el mundo antes de enfadarse con él."
+  }
+}

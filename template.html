@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITLE}}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .story-title {
+            font-family: 'Lora', serif;
+        }
+        .story-content {
+            font-family: 'Lora', serif;
+        }
+    </style>
+</head>
+<body class="bg-emerald-50 text-gray-800">
+
+    <div class="container mx-auto px-4 py-8 md:py-16">
+        <main class="max-w-3xl mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
+            <div class="p-8 md:p-12">
+
+                <!-- Header with Title and Icon -->
+                <header class="text-center mb-8">
+                    <div class="inline-block bg-emerald-100 text-emerald-600 rounded-full p-3 mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 3a1 1 0 011 1v1.172l1.34-1.34a1 1 0 111.414 1.414l-1.47 1.47a5.98 5.98 0 013.716 3.284 1 1 0 01-1.838.79l-1.424-3.322a4.002 4.002 0 00-5.46-2.502l-1.334 2.224a1 1 0 01-1.732-1.039L8.43 3.58A5.96 5.96 0 0110 3zm-2.05 6.293a1 1 0 011.414 0L10 10.05l.636-.637a1 1 0 011.414 1.414L10.328 12.5a1.002 1.002 0 01-1.414 0l-1.717-1.717a1 1 0 010-1.414zm-4.425 4.293a1 1 0 010-1.414l.707-.707a1 1 0 111.414 1.414l-.707.707a1 1 0 01-1.414 0zm12.875-1.414a1 1 0 010 1.414l-.707.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <h1 class="story-title text-3xl md:text-4xl font-bold text-emerald-800">{{TITLE}}</h1>
+                </header>
+
+                <!-- Audio Player -->
+                <div class="mb-8">
+                    <audio controls class="w-full">
+                        <source src="{{AUDIO_SRC}}" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+
+                <!-- Story Content -->
+                <div class="story-content text-lg leading-relaxed text-gray-700 space-y-4">
+                    {{STORY_CONTENT}}
+                </div>
+
+                <!-- Moral of the Story -->
+                <footer class="mt-10 pt-6 border-t-2 border-emerald-100 text-center">
+                    {{MORAL}}
+                </footer>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Find all translate buttons
+            const translateButtons = document.querySelectorAll('.translate-btn');
+
+            // Add a click event listener to each button
+            translateButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Find the parent container of the button
+                    const block = button.closest('.translatable-block');
+                    // Find the element with the original text and data-translation attribute
+                    const originalTextElement = block.querySelector('[data-translation]');
+                    // Find the element where the translation will be displayed
+                    const translationTextElement = block.querySelector('.translation-text');
+                    // Get the translation from the data attribute
+                    const translation = originalTextElement.getAttribute('data-translation');
+
+                    // Check if the translation is currently hidden
+                    if (translationTextElement.classList.contains('hidden')) {
+                        // If hidden, show it
+                        translationTextElement.innerHTML = translation; // Use innerHTML to correctly render tags like <br>
+                        translationTextElement.classList.remove('hidden');
+                        button.textContent = 'Ocultar'; // Change button text to "Hide"
+                    } else {
+                        // If visible, hide it
+                        translationTextElement.classList.add('hidden');
+                        button.textContent = 'Traducir'; // Change button text back to "Translate"
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
